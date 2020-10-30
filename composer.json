@@ -1,5 +1,5 @@
 {
-    "name": "datatables.net/editor-php",
+    "name": "starx/editor-php",
 	"description": "PHP server-side libraries for Editor",
 	"type": "library",
     "require": {
@@ -8,6 +8,10 @@
     "keywords": ["DataTables","jQuery","Editor"],
     "homepage": "https://editor.datatables.net",
     "authors": [
+        {
+            "name": "Starx",
+            "homepage": "https://starx.io"
+        },
         {
             "name": "SpryMedia Ltd",
             "homepage": "https://datatables.net"

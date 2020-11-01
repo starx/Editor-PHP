@@ -69,11 +69,15 @@ class Database {
 
 
 	/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
-	 * Private properties
+	 * Protected properties
 	 */
 
 	/** @var resource */
-	private $_dbResource = null;
+	protected $_dbResource = null;
+
+    /* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+     * Private properties
+     */
 
 	/** @var callable */
 	private $_debugCallback = null;
